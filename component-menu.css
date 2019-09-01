@@ -29,6 +29,10 @@ body {
 	padding: 6px 14px;
 }
 
+.menu .right-menu li .item:hover {
+	color: #0098ab;
+}
+
 .menu .right-menu li .item-1 {
 	color: #0098ab;
 	font-weight: bold;
