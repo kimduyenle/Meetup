@@ -1,0 +1,76 @@
+.header {
+	font-family: Arial, sans-serif;
+	display: flex;
+	align-items: center;
+}
+
+.header .left {
+	width: 50%;
+}
+
+ .header .right {
+ 	width: 50%;
+ 	text-align: right;
+ }
+
+.header .left .title {
+	color: rgb(46, 62, 72);
+	font-weight: 800;
+}
+
+.header .left .paragraph {
+	color: rgb(46, 62, 72);
+	font-size: 20px;
+}
+
+.header .left input {
+	border: 1px solid rgba(46, 62, 72, 0.35);
+	border-radius: 8px;
+	height: 48px;
+	width: 337px;
+	color: rgb(33, 33, 33);
+	font-weight: 600;
+	background: url(images/search.svg) no-repeat 10px 10px;
+	background-size: 8%;
+	padding-left: 48px;
+	margin-right: 16px;
+}
+
+.header .left input::placeholder {
+	font-size: 16px;
+	color: rgba(46, 62, 72, 0.4);
+	font-weight: 600;
+}
+
+.header .left input:hover {
+	border-color: rgba(46, 62, 72, 0.6)
+}
+
+.header .left input:focus {
+	border-color: #2e3e48;
+	outline: none;
+}
+
+.header .left a {
+	text-align: center;
+	font-weight: 600;
+	background-color: rgba(246, 88, 88);
+	color: white;
+	text-decoration: none;
+	padding: 16px 0;
+	width: 144px;
+	display: inline-block;
+	border: 1px solid rgba(246, 88, 88);
+	border-radius: 8px;
+	transition: all 0.3s;
+}
+
+.header .left a:hover {
+	background-color: rgba(246, 88, 88, 0.9);
+	border-color: rgba(246, 88, 88, 0.9);
+}
+
+.header .right img {
+	width: 520px;
+	height: 347px;
+}
