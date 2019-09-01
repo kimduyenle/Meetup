@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #e6e8e9;
+	padding: 14px 0 14px 14px;
+}
+
+.menu .logo img {
+	height: 44px;
+}
+
+.menu .right-menu {
+	list-style: none;
+}
+
+.menu .right-menu li {
+	display: inline-block;
+}
+
+.menu .right-menu li .item {
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	color: rgba(46, 62, 72, 0.6);
+	font-size: 14px;
+	padding: 6px 14px;
+}
+
+.menu .right-menu li .item-1 {
+	color: #0098ab;
+	font-weight: bold;
+	border-right: 1px solid #e6e8e9;
+}
