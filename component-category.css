@@ -1,0 +1,24 @@
+.category {
+	height: 50px;
+	width: 342px;
+	color: rgb(46, 62, 72);
+	border: 1px solid rgb(46, 62, 72, 0.12);
+	border-radius: 8px;
+	box-shadow: 0 0 2px 0 rgba(46, 62, 72, 0.12), 0 2px 4px 0 rgba(46, 62, 72, 0.12);
+	transition: all 0.3s;
+}
+
+.category:hover {
+	box-shadow: 0 0 4px 0 rgba(46, 62, 72, 0.12), 0 4px 12px 0 rgba(46, 62, 72, 0.12);
+	transform: translateY(-1px);
+}
+
+.category img {
+	height: 50px;
+	border-radius: 8px 0 0 8px;
+	float: left;
+}
+
+.category .title {
+	padding: 16px 20px 16px 108px;
+}
