@@ -1,0 +1,35 @@
+.main {
+	padding: 40px 144px;
+}
+
+.main h2 {
+	font-family: Arial, sans-serif;
+	color: rgb(46, 62, 72);
+}
+
+.main .category-group {
+	width: 33.33%;
+	float: left;
+}
+
+.main::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.main .category-group.group-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main .category-group.group-3 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.footer {
+	clear: both;
+}
