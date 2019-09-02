@@ -1,0 +1,109 @@
+.footer {
+	background-color: #353e48;
+	color: white;
+	font-family: Arial, sans-serif;
+}
+
+.footer .start {
+	padding: 40px 144px;
+	border-bottom: 1px solid #5d656d;
+}
+
+.footer .start a {
+	color: white;
+}
+
+.footer .start a:hover {
+	text-decoration: none;
+}
+
+.footer .center {
+	height: 400px;
+	padding: 0 144px;
+}
+
+.footer .center .list {
+	list-style: none;
+	float: left;
+	width: 236px;
+	padding: 0;
+	margin: 0;
+}
+
+.footer .center .list.list-4 {
+	width: 353px;
+}
+
+.footer .end {
+	font-size: 14px;
+	clear: both;
+	background-color: rgb(47, 54, 63);
+	padding: 24px 144px;
+}
+
+.footer::after {
+	content: '';
+	clear: both;
+}
+
+.footer .center .list li {
+	margin-top: 26px;
+}
+
+.footer .center .list li.title {
+	margin-top: 40px;
+	font-weight: 600;
+}
+
+.footer .center .list.list-4 i {
+	font-size: 22px;
+	margin-right: 40px;
+}
+
+.footer .center .list.list-4 select {
+	background-color: rgb(15, 23, 33);
+	color: white;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 4px;
+	width: 353px;
+	height: 55px;
+	padding-left: 10px;
+	margin-top: -6px;
+}
+
+.footer .center .list.list-4 select:hover {
+	border-color: rgba(255, 255, 255, 0.7);
+}
+
+.footer .center .list.list-4 select:focus {
+	border-color: rgba(255, 255, 255, 0.7);
+	outline: none;
+}
+
+.footer .center .list.list-4 img {
+	width: 160px;
+	margin-top: 44px;
+}
+
+.footer .center .list.list-4 li a:first-child img {
+	margin-right: 28px;
+}
+
+.footer .center .list li a {
+	color: rgba(255, 255, 255, 0.7);
+	text-decoration: none;
+}
+
+.footer .end .row-1 {
+	margin-bottom: 26px;
+}
+
+.footer .end a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer .end i {
+	font-size: 2px;
+	padding: 0 5px;
+}
