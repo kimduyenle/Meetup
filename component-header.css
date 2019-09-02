@@ -6,6 +6,8 @@
 
 .header .left {
 	width: 50%;
+    padding-right: 24px;
+    box-sizing: border-box;
 }
 
  .header .right {
@@ -16,24 +18,27 @@
 .header .left .title {
 	color: rgb(46, 62, 72);
 	font-weight: 800;
+	margin: 0;
 }
 
 .header .left .paragraph {
 	color: rgb(46, 62, 72);
 	font-size: 20px;
+	line-height: 30px;
 }
 
 .header .left input {
 	border: 1px solid rgba(46, 62, 72, 0.35);
 	border-radius: 8px;
 	height: 48px;
-	width: 337px;
+	width: 336px;
 	color: rgb(33, 33, 33);
 	font-weight: 600;
 	background: url(images/search.svg) no-repeat 10px 10px;
 	background-size: 8%;
 	padding-left: 48px;
 	margin-right: 16px;
+	box-sizing: border-box;
 }
 
 .header .left input::placeholder {
@@ -73,4 +78,5 @@
 .header .right img {
 	width: 520px;
 	height: 347px;
+	border-radius: 8px;
 }
